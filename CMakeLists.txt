@@ -34,11 +34,11 @@ set(G2O_LIBS
     g2o_types_sim3
     cxsparse)
 # link to ceres for future
-find_package(Ceres Required)
+# find_package(Ceres Required)
 # link to OpenCV for future
-find_package(Opencv Required)
+# find_package(Opencv Required)
 
 include_directories(/usr/local/include/go2/EXTERNAL/csparse)
-
-add_executable(ba_evaluate ba_eigen.cpp ba_g2o.cpp ba_evaluate.cpp)
+include_directories(include)
+add_executable(ba_evaluate src/ba_eigen.cpp src/ba_g2o.cpp src/ba_evaluate.cpp)
 target_link_libraries(ba_evaluate Eigen3::Eigen ${G2O_LIBS} fmt)
