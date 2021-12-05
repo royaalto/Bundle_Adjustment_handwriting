@@ -430,6 +430,7 @@ CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o: /usr/local/include/Eigen/src/p
 CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o: /usr/local/include/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o: /usr/local/include/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o: include/ba_eigen.h
+CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o: include/utils.hpp
 
 CMakeFiles/ba_evaluate.dir/src/ba_g2o.cpp.o: src/ba_g2o.cpp
 

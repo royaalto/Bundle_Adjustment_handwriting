@@ -431,5 +431,6 @@ CMakeFiles/ba_evaluate.dir/src/ba_evaluate.cpp.o
  /usr/local/include/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  /usr/local/include/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  include/ba_eigen.h
+ include/utils.hpp
 CMakeFiles/ba_evaluate.dir/src/ba_g2o.cpp.o
  /home/gim/softwares/Bundle_Adjustment_handwriting/src/ba_g2o.cpp

@@ -3,12 +3,19 @@
 #include <Eigen/Dense>
 #include <Eigen/Core>
 #include <vector>
+struct CamModel
+{
+    double fx;
+    double fy;
+    double cx;
+    double cy;
 
+};
 
 class BaEigen
 {
 public:
-    BaEigen(const std::vector<Eigen::Vector3d>& vec_3d, const std::vector<Eigen::Vector2d>& vec2d, std::vector<Eigen::Matrix4d> vertex_poses, int iteration);
+    BaEigen(const std::vector<Eigen::Vector3d>& vec_3d, const std::vector<Eigen::Vector2d>& vec2d, std::vector<Eigen::Matrix4d> vertex_poses, CamModel cam, int iteration);
     ~BaEigen();
 
     Eigen::MatrixXd ComputeJacobian();
@@ -30,6 +37,7 @@ private:
     Eigen::MatrixXd jacobian_;
     Eigen::MatrixXd hessian_;
     std::vector<Eigen::Matrix4d> vertex_poses_;
+    CamModel cam_model_;
 
 };
 
