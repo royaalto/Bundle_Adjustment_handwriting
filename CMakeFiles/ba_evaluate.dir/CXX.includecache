@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/gim/softwares/Bundle_Adjustment_handwriting/src/ba_eigen.cpp
+ba_eigen.h
+/home/gim/softwares/Bundle_Adjustment_handwriting/src/ba_eigen.h
 
 /home/gim/softwares/Bundle_Adjustment_handwriting/src/ba_evaluate.cpp
 ba_eigen.h

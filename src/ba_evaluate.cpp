@@ -54,6 +54,7 @@ int main(int argc, char** argv)
 {
     std::string file_3dname = "p3d.txt";
     std::string file_2dname = "p2d.txt";
+    int iteration = 10;
     std::vector<Eigen::Vector3d> vec_3d;
     std::vector<Eigen::Vector2d> vec_2d;
     bool read_suc = ReadTxt(file_2dname, file_3dname, vec_2d, vec_3d);
@@ -62,5 +63,7 @@ int main(int argc, char** argv)
         std::cout<<"Read failed"<<std::endl;
         return 0;
     }
+    BaEigen ba_eigen_test(vec_3d, vec_2d, iteration);
+    ba_eigen_test.GaussNewton();
 
 }
