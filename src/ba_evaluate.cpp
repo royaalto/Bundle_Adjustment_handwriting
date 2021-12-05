@@ -63,7 +63,11 @@ int main(int argc, char** argv)
         std::cout<<"Read failed"<<std::endl;
         return 0;
     }
-    BaEigen ba_eigen_test(vec_3d, vec_2d, iteration);
+    std::vector<Eigen::Matrix4d> vetex_poses;
+    Eigen::Matrix4d init_pose = Eigen::Matrix4d::Identity();
+    vetex_poses.push_back(init_pose);
+
+    BaEigen ba_eigen_test(vec_3d, vec_2d, vetex_poses, iteration);
     ba_eigen_test.GaussNewton();
 
 }

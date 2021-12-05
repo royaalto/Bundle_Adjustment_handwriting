@@ -4,10 +4,11 @@
 #include <Eigen/Core>
 #include <vector>
 
+
 class BaEigen
 {
 public:
-    BaEigen(const std::vector<Eigen::Vector3d>& vec_3d, const std::vector<Eigen::Vector2d>& vec2d, int iteration);
+    BaEigen(const std::vector<Eigen::Vector3d>& vec_3d, const std::vector<Eigen::Vector2d>& vec2d, std::vector<Eigen::Matrix4d> vertex_poses, int iteration);
     ~BaEigen();
 
     Eigen::MatrixXd ComputeJacobian();
@@ -28,6 +29,8 @@ private:
     std::vector<Eigen::Vector3d> point_3d_;
     Eigen::MatrixXd jacobian_;
     Eigen::MatrixXd hessian_;
+    std::vector<Eigen::Matrix4d> vertex_poses_;
+
 };
 
 #endif
