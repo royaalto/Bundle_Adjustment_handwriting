@@ -1,0 +1,6 @@
+devel_space: /home/gim/softwares/Bundle_Adjustment_handwriting/devel
+install: false
+install_space: /home/gim/softwares/Bundle_Adjustment_handwriting/install
+profile: default
+source_space: /home/gim/softwares/Bundle_Adjustment_handwriting/src
+workspace: /home/gim/softwares/Bundle_Adjustment_handwriting
