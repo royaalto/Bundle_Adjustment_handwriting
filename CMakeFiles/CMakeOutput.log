@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/gim/softwares/Bundle_Adj
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9263a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9263a.dir/build.make CMakeFiles/cmTC_9263a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f8ebe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8ebe.dir/build.make CMakeFiles/cmTC_f8ebe.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9263a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_9263a.dir/testCCompiler.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9263a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9263a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9263a.dir/testCCompiler.c.o  -o cmTC_9263a 
+Building C object CMakeFiles/cmTC_f8ebe.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f8ebe.dir/testCCompiler.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f8ebe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ebe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f8ebe.dir/testCCompiler.c.o  -o cmTC_f8ebe 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ebfcd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ebfcd.dir/build.make CMakeFiles/cmTC_ebfcd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2f464/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f464.dir/build.make CMakeFiles/cmTC_2f464.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ebfcd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebfcd.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o  -o cmTC_ebfcd 
+Building C object CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2f464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f464.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o  -o cmTC_2f464 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebfcd' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7VW32U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebfcd /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebfcd' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f464' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDVL95w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2f464 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f464' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ebfcd/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ebfcd.dir/build.make CMakeFiles/cmTC_ebfcd.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2f464/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2f464.dir/build.make CMakeFiles/cmTC_2f464.dir/build]
   ignore line: [make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ebfcd]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebfcd.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o  -o cmTC_ebfcd ]
+  ignore line: [Building C object CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2f464]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f464.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o  -o cmTC_2f464 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebfcd' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7VW32U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebfcd /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2f464' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDVL95w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2f464 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc7VW32U.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDVL95w.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ebfcd] ==> ignore
+    arg [cmTC_2f464] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_ebfcd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2f464.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8a1a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8a1a.dir/build.make CMakeFiles/cmTC_b8a1a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e3ed0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3ed0.dir/build.make CMakeFiles/cmTC_e3ed0.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8a1a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b8a1a.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b8a1a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a1a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8a1a.dir/feature_tests.c.o  -o cmTC_b8a1a 
+Building C object CMakeFiles/cmTC_e3ed0.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e3ed0.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e3ed0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3ed0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e3ed0.dir/feature_tests.c.o  -o cmTC_e3ed0 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8af4e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8af4e.dir/build.make CMakeFiles/cmTC_8af4e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4f389/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f389.dir/build.make CMakeFiles/cmTC_4f389.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8af4e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8af4e.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8af4e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8af4e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8af4e.dir/feature_tests.c.o  -o cmTC_8af4e 
+Building C object CMakeFiles/cmTC_4f389.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4f389.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4f389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f389.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f389.dir/feature_tests.c.o  -o cmTC_4f389 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_67aab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_67aab.dir/build.make CMakeFiles/cmTC_67aab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_104f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_104f5.dir/build.make CMakeFiles/cmTC_104f5.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67aab.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_67aab.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
-Linking C executable cmTC_67aab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67aab.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_67aab.dir/feature_tests.c.o  -o cmTC_67aab 
+Building C object CMakeFiles/cmTC_104f5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_104f5.dir/feature_tests.c.o   -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.c
+Linking C executable cmTC_104f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_104f5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_104f5.dir/feature_tests.c.o  -o cmTC_104f5 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ffdd7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ffdd7.dir/build.make CMakeFiles/cmTC_ffdd7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_be8d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be8d8.dir/build.make CMakeFiles/cmTC_be8d8.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ffdd7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ffdd7.dir/testCXXCompiler.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ffdd7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffdd7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ffdd7.dir/testCXXCompiler.cxx.o  -o cmTC_ffdd7 
+Building CXX object CMakeFiles/cmTC_be8d8.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_be8d8.dir/testCXXCompiler.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_be8d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be8d8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_be8d8.dir/testCXXCompiler.cxx.o  -o cmTC_be8d8 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4646/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4646.dir/build.make CMakeFiles/cmTC_b4646.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f93cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f93cb.dir/build.make CMakeFiles/cmTC_f93cb.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b4646
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4646.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b4646 
+Building CXX object CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f93cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f93cb.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f93cb 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4646' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfiAyzc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b4646 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4646' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f93cb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0no3WO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f93cb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f93cb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b4646/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b4646.dir/build.make CMakeFiles/cmTC_b4646.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f93cb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f93cb.dir/build.make CMakeFiles/cmTC_f93cb.dir/build]
   ignore line: [make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b4646]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4646.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b4646 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f93cb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f93cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f93cb ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b4646' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfiAyzc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b4646 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f93cb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0no3WO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f93cb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfiAyzc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0no3WO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b4646] ==> ignore
+    arg [cmTC_f93cb] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_b4646.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f93cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b2e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8b2e1.dir/build.make CMakeFiles/cmTC_8b2e1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1a847/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a847.dir/build.make CMakeFiles/cmTC_1a847.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8b2e1.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8b2e1.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8b2e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2e1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8b2e1.dir/feature_tests.cxx.o  -o cmTC_8b2e1 
+Building CXX object CMakeFiles/cmTC_1a847.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1a847.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a847.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1a847.dir/feature_tests.cxx.o  -o cmTC_1a847 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_901fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_901fd.dir/build.make CMakeFiles/cmTC_901fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_54c88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54c88.dir/build.make CMakeFiles/cmTC_54c88.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_901fd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_901fd.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_901fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901fd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_901fd.dir/feature_tests.cxx.o  -o cmTC_901fd 
+Building CXX object CMakeFiles/cmTC_54c88.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_54c88.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_54c88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54c88.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_54c88.dir/feature_tests.cxx.o  -o cmTC_54c88 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_afb7d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_afb7d.dir/build.make CMakeFiles/cmTC_afb7d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_72f0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72f0f.dir/build.make CMakeFiles/cmTC_72f0f.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_afb7d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_afb7d.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_afb7d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb7d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_afb7d.dir/feature_tests.cxx.o  -o cmTC_afb7d 
+Building CXX object CMakeFiles/cmTC_72f0f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_72f0f.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_72f0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72f0f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_72f0f.dir/feature_tests.cxx.o  -o cmTC_72f0f 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CM
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_03a01/fast"
-/usr/bin/make -f CMakeFiles/cmTC_03a01.dir/build.make CMakeFiles/cmTC_03a01.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1018/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1018.dir/build.make CMakeFiles/cmTC_d1018.dir/build
 make[1]: Entering directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_03a01.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_03a01.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_03a01
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03a01.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_03a01.dir/feature_tests.cxx.o  -o cmTC_03a01 
+Building CXX object CMakeFiles/cmTC_d1018.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d1018.dir/feature_tests.cxx.o -c /home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1018.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d1018.dir/feature_tests.cxx.o  -o cmTC_d1018 
 make[1]: Leaving directory '/home/gim/softwares/Bundle_Adjustment_handwriting/CMakeFiles/CMakeTmp'
 
 

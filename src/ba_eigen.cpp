@@ -148,9 +148,11 @@ void BaEigen::UpdateSEPose(const Eigen::VectorXd& delta_x)
     //lie the second 3 vectors are rotation
     Eigen::Vector3d rot_vec = delta_x.block<3, 1>(3, 0);
     Eigen::Matrix3d rot_ = se2RotationMatrix(rot_vec);
-    update_pose_.block<3, 3>(0, 0) = rot_;
-    update_pose_.block<3, 1>(0, 3) = delta_x.block<3, 1>(0, 0);
-    update_pose_(3, 3) = 1;
+    Eigen::Matrix4d update_mat;
+    update_mat.block<3, 3>(0, 0) = rot_;
+    update_mat.block<3, 1>(0, 3) = delta_x.block<3, 1>(0, 0);
+    update_mat(3, 3) = 1;
+    update_pose_ = update_mat * update_pose_;
 }
 void BaEigen::GaussNewton()
 {
@@ -163,8 +165,14 @@ void BaEigen::GaussNewton()
         double reprojection_error;
         reprojection_error = ComputeReprojectionError(update_pose_);
         std::cout << "reprojection error is : " << reprojection_error << std::endl;
+
         // H delta x = -J e; delta x -> SE4 4*4 se3 6*1
         Eigen::VectorXd delta_x = ComputeDeltaX();
+        if (delta_x.norm() < 1e-5)
+        {
+            std::cout << "delta se3: " << delta_x.norm() << std::endl;
+            std::cout << "stop the loop" << std::endl;
+        }
         UpdateSEPose(delta_x);
     }
 }
